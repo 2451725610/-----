@@ -1,0 +1,32 @@
+﻿<!doctype html>
+<html>
+
+	<head>
+		<meta charset="utf-8">
+		<title>taobaoxiutu</title>
+		<link rel="stylesheet" type="text/css" href="css/style2.css" />
+	</head>
+
+	<body>
+		<div id="banner">
+			<div id="carousel">
+				<img src="img/shouji.png" data-url="#">
+				<img src="img/lanqiu.png" data-url="#">
+				<img src="img/xiezi.png" data-url="#">
+				<img src="img/shoujike.png" data-url="#">
+			</div>
+		</div>
+		<script src="js/jquery.min.js" type="text/javascript" charset="utf-8"></script>
+		<script src="js/slider.js" type="text/javascript" charset="utf-8"></script>
+		<script>
+			$(function() {
+				$('#carousel').carousel({
+					curDisplay: 0, //默认索引
+					autoPlay: false, //是否自动播放
+					interval: 3000 //间隔时间
+				});
+			});
+		</script>
+	</body>
+
+</html>
